@@ -9,14 +9,14 @@ from-scratch implementations.
 
 ## 📖 About  
 This project dives deep into the **core building blocks of Deep Learning**.
-Instead of relying only on high-level libraries, the goal is to **understand
-the math and logic behind neural network training**.
+Instead of relying only on high-level libraries, the focus is on understanding
+the **mathematics and logic behind neural network training**.
 
-It explains:
-- How activation functions transform data
-- How loss functions measure error
-- How gradient descent updates weights
-- How neural networks learn via backpropagation
+The project explains:
+- How activation functions transform inputs  
+- How loss functions quantify error  
+- How gradient descent updates weights and bias  
+- How neural networks learn via backpropagation  
 
 ---
 
@@ -30,7 +30,7 @@ It explains:
 
 ### 🔹 Neural Network Training
 - Forward propagation  
-- Loss calculation  
+- Loss computation  
 - Backpropagation  
 - Chain rule intuition  
 
@@ -39,11 +39,11 @@ It explains:
 - Log Loss (Binary Crossentropy)  
 - Numerical stability using epsilon  
 
-### 🔹 Gradient Descent
+### 🔹 Gradient Descent Variants
 - Batch Gradient Descent  
 - Stochastic Gradient Descent (SGD)  
 - Mini-Batch Gradient Descent  
-- Learning rate & convergence  
+- Learning rate & convergence behavior  
 
 ---
 
@@ -57,31 +57,50 @@ It explains:
 ## 🛠️ Implementations  
 
 ### 🧩 From Scratch (NumPy)
-- Sigmoid & Log Loss implementation  
+- Sigmoid and Log Loss implementation  
 - Gradient Descent for logistic regression  
 - Custom neural network class (`myNN`)  
 - Manual weight and bias updates  
 
 ### 🤖 Using TensorFlow / Keras
-- Logistic regression as a single-neuron network  
-- Weight & bias extraction  
-- Comparison with custom implementation  
+- Logistic regression as a single-neuron neural network  
+- Model training using Adam optimizer  
+- Weight and bias extraction  
+- Comparison with custom from-scratch implementation  
 
 ---
 
-## 🏠 Real-World Datasets Used  
-- Insurance dataset (binary classification)  
-- Home price dataset (regression)  
+## 🏠 Datasets Used  
 
-Data preprocessing includes:
-- Feature scaling  
-- Train–test split  
+### 🧾 Insurance Dataset
+- Features:  
+  - Age  
+  - Affordability  
+- Target:  
+  - Whether a person has insurance or not  
+- Used for:
+  - Logistic regression  
+  - Gradient descent from scratch  
+  - Neural network training comparison  
+
+---
+
+### 🏘️ Bangalore Home Prices Dataset
+- Features:  
+  - Area  
+  - Number of bedrooms  
+- Target:  
+  - House price  
+- Used for:
+  - Batch Gradient Descent  
+  - Stochastic Gradient Descent  
+  - Cost vs iterations comparison  
 
 ---
 
 ## 📈 Visualizations
 - Cost vs iterations graphs  
-- Batch vs Stochastic GD comparison  
+- Batch vs Stochastic Gradient Descent comparison  
 - Model convergence behavior  
 
 ---
@@ -93,17 +112,18 @@ Data preprocessing includes:
    - Explore activation functions  
    - Implement loss functions  
    - Train models using different GD techniques  
-   - Compare from-scratch vs library-based results  
+   - Compare from-scratch and library-based approaches  
 
 ---
 
 ## 🧠 Key Learnings
-- Why activation functions matter  
-- How loss functions guide learning  
-- How gradient descent optimizes weights  
-- Why scaling affects convergence  
-- How neural networks learn internally  
+- Why activation functions are critical in deep learning  
+- How loss functions guide model optimization  
+- How different gradient descent variants behave  
+- Why feature scaling impacts convergence  
+- How neural networks learn internally from scratch  
 
 ---
 
 🚀 *Part of my Deep Learning mini projects focused on mastering neural network fundamentals from scratch!*  
+
