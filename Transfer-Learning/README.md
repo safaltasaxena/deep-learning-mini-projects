@@ -37,13 +37,21 @@ conditions, and orientations.
 
 ## 🏗️ Model Architecture
 Input Image (224 × 224 × 3)
-↓
+
+     ↓
+
 MobileNetV2 Feature Extractor (Frozen)
-↓
+
+     ↓
+
 Feature Vector (1280)
-↓
+
+     ↓
+
 Dense Layer (5 Units)
-↓
+
+     ↓
+
 Output (Logits)
 
 ---
