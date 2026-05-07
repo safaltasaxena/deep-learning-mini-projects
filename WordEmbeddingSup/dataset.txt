@@ -1,0 +1,11 @@
+reviews=['nice food',
+         'amazing resturant',
+         'too good',
+         'just loved it',
+         'will go again',
+         'horrible food',
+         'never go there',
+         'poor service',
+         'poor quality',
+         'needs improvement']
+sentiment=np.array([1,1,1,1,1,0,0,0,0,0])
